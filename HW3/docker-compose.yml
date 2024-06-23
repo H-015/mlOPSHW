@@ -1,0 +1,12 @@
+
+version: "3.0"
+services:
+  app:
+    build: .
+    image: "kwazart/iris-demo:latest"
+    volumes:
+      - .:/mlops-demo
+    ports:
+      - "8000:8000"
+    restart: always
+0 comments on commit 6c0d776
