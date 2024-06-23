@@ -3,5 +3,5 @@ WORKDIR /iris-demo
 COPY . /iris-demo
 RUN pip3 install -r requirements.txt
 EXPOSE 8000
-LABEL authors="Artem Polozov"
+LABEL authors="Seleznev D"
 ENTRYPOINT ["./docker-entrypoint.sh"]
