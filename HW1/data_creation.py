@@ -29,7 +29,7 @@ def write_file(filename, np_data, is_target: bool, column_names, train_dir_path=
     :param column_names: список наименований колонок
     :param train_dir_path: путь до тренировочной директории
     :param test_dir_path:  путь до тестовой директории
-    :return: множество их двух строк, содержащие пути дос с=записанных файлов
+    :return: множество их двух строк, содержащие пути дос с=записанных файлов"""
     
     else:
         df_train = pd.DataFrame(np_data[:int(data_length * 0.8), :])
